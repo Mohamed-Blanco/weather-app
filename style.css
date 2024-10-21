@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+    color: black;
+    font-family: "Madimi One", sans-serif;
+    
+}
+#back{
+   width: 400px;
+}
+
+body{
+    justify-content: center;
+    display: flex;
+    
+    
+}
+#container{
+    
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    float: left;
+    
+    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    background-position-y:center;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,.2);
+    
+}
+#Searchbar{
+   margin-top: 40px;
+   width: 50%;
+   background-color: white;
+   border-radius: 12px;
+   
+   
+
+}
+input{
+    height: 25px;
+    border-radius: 12px;
+    text-align: center;
+    border-style: none;
+}
+input:hover{
+    border-style: none;
+}
+input:checked{
+    border-style: none;
+}
+button {
+    all: unset;
+  }
+#general{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    position:static;
+}
+#city{
+    font-size: 2rem;
+}
+#degre{
+    font-size: 4rem;
+    
+}
+#state{
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 5px 5px rgba(0,0,0,.2);
+}
+.hour{
+    font-size: 1.5rem;
+    margin-top: 5px; 
+}
+.entete{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#entetehour p{
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+
+}
+
+
+
+#day{
+    background: linear-gradient(45deg, white,#548caf);
+    width: 370px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 2px whitesmoke solid;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,.2);
+}
+#day:hover{
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,.7);
+}
+
+
+
+#hour{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    overflow-x: auto;
+    width: 100%;
+}
+.hours{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
+    justify-content: space-between;
+    width: 200px;
+    min-width: 40px;
+    
+}
+
+.hours p{
+    font-size: 1.2rem;
+}
+#week{
+    width: 370px;
+    background-color: bisque;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    border: 2px whitesmoke solid;
+    background: linear-gradient(45deg, white,#548caf);
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,.2);
+}
+#week:hover{
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,.7);
+}
+.weeks{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+#sun{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    margin-bottom: 30%;
+}
+.set{
+    background: linear-gradient(45deg, white,#548caf);
+   width: calc(300px/2);
+   text-align: center;
+   border-radius: 12px;
+   padding: 5%;
+   border: 2px whitesmoke solid;
+   box-shadow: 2px 2px 5px 5px rgba(0,0,0,.2);
+
+}
+.set:hover{
+
+        box-shadow: 2px 2px 5px 5px rgba(0,0,0,.7);
+   
+}
+.rise{
+    background: linear-gradient(45deg, white,#548caf);
+    width: calc(300px/2);
+    text-align: center;
+    border-radius: 12px;
+    padding: 5%;
+    border: 2px whitesmoke solid;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,.2);
+}
+.rise:hover{
+
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,.7);
+
+}
+.precepitation{
+
+}
+.icons{
+    width: 40px;
+    height: 40px;
+    
+}
+hr{
+    height: 3px;
+    background-color: black;
+    border-radius: 20px;
+    border-style: none;
+    
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meteo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   
+    
+    <div style="position: absolute;" id="container">
+        <div id="Searchbar">
+            <input type="search" title="search" placeholder="City">
+            <button onclick="getname()"><i style="font-size: 1.1rem;" class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div id="general">
+            <p id="city">Oujda</p>
+            <p id="degre">13°</p>
+            <P id="state">Partly Cloudy</P>
+            <p class="currenthour">12:20</p>
+            
+        </div>
+        <div id="day">
+            <div class="entete h">
+                <p id="enteteweek">Clear conditions will continue for the rest of the day</p>
+                <hr>
+            </div>
+            <div id="hour">
+                <div class="hours" id="0">
+                    
+                </div>
+                <div class="hours"id="1">
+                </div>
+                <div class="hours"id="2"></div>
+                <div class="hours"id="3"></div>
+                <div class="hours"id="4"></div>
+                <div class="hours"id="5"></div>
+                <div class="hours"id="6"></div>
+                <div class="hours"id="7"></div>
+                <div class="hours"id="8"></div>
+                <div class="hours"id="9"></div>
+                <div class="hours"id="10"></div>
+                <div class="hours"id="11"></div>
+            </div>
+        </div>
+        <div id="week">
+            <div class="entete w">
+                <p style="font-size: 1em;">5-DAY FORCAST</p>
+                <hr>
+                
+            </div>
+            <div class="weeks" id="day1">
+                
+            </div>
+            <div class="weeks"id="day2"></div>
+            <div class="weeks"id="day3"></div>
+            <div class="weeks"id="day4"></div>
+            <div class="weeks"id="day5"></div>
+            <div class="weeks"id="day6"></div>
+            <div class="weeks"id="day7"></div>
+            
+        </div>
+        <div id="map">
+            <div class=""></div>
+        </div>
+        <div id="sun">
+            <div class="rise">
+                <p>Sunrise</p>
+                <img style="width: 50px;" src="Images/sunrise.png" alt="">
+                <p id="rise"></p>
+            </div>
+            <div class="set">
+                <p>Sunset</p>
+                <img style="width: 50px;" src="Images/sunset.png" alt="">
+                <p id="set"></p>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/beb14da2c9.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
